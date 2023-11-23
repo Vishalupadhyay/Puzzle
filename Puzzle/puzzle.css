@@ -1,0 +1,94 @@
+body{
+    background-color: #111;
+    margin-top: 44px;
+}
+/* span{
+    display:flex !important;
+    justify-content:flex-end;
+    position:absolute !important;
+    right:0;
+    z-index: 999999;
+} */
+
+.difficulty-button{
+    padding: 10px;
+    align-items: center;
+    width: 158px;
+    margin-top: 17px;
+}
+.target{
+    background: rgba(65,65,65,.4);
+    position: relative;
+    display:inline-block;
+    width: 500px;
+    height: 525px;
+    margin:20px;
+}
+.game-field-background{
+
+    display:inline-block;
+    position: absolute;
+    margin:20px;
+}
+.game-field{
+    background: rgba(65,65,65,.4);
+    /* display:inline-block;
+    position: absolute; */
+    width: 520px;
+    height: 525px;
+    padding: 14px;
+    
+}
+.score-counter{
+    background: rgba(65,65,65,.4);
+    position: absolute;
+    width: 200px;
+    height: 525px;
+    display: inline-block;
+    padding: 22px;
+    margin-left: 575px;
+    margin-top: 20px;
+
+}
+#target-img{
+    height: 450px;
+    width: 500px;
+    padding-top: 0px !important;
+    padding: 50px;
+}
+.puzzle-image{
+    box-sizing: content-box;
+    width:160px;
+    height:160px;
+    margin: 2px;
+}
+.puzzle-image-hard{
+    box-sizing: content-box;
+    width: 119px;
+    height: 119px;
+    margin: 2px;
+}
+
+.font-effects{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    /* font-size: 30px; */
+    margin-top: 15px;
+}
+
+.win-image{
+    height: 500px;
+    width: 500px;
+    margin-left: -4px;
+    display: flex;
+    animation-name: zoomIn;
+    margin-top: -495px;
+    animation-duration: 2s;
+}
+@keyframes zoomIn {
+    0%{height: 300px;}
+    0%{width: 300px;}
+    100%{width: 500px;}
+    100%{height: 500px;}
+}
